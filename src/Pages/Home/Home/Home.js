@@ -1,11 +1,15 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import Experts from '../Experts/Experts';
 import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home......</h2>
+            <h2 className='text-primary'>Welcome to Kolka gass Station . . .</h2>
+            <Banner></Banner>
             <Services></Services>
+            <Experts></Experts>
         </div>
     );
 };

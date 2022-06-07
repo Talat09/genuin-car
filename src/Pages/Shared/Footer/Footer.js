@@ -10,8 +10,8 @@ const Footer = () => {
         getYear();
     }, [])
     return (
-        <footer>
-            <p><small>&copy; Talat Mahmud - {date}</small></p>
+        <footer className='mt-5'>
+            <p><small>&copy; Copyright - {date}</small></p>
         </footer>
     );
 };
