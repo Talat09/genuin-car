@@ -6,7 +6,7 @@ import Services from '../Services/Services';
 const Home = () => {
     return (
         <div>
-            <h2 className='text-primary'>Welcome to Kolka gass Station . . .</h2>
+
             <Banner></Banner>
             <Services></Services>
             <Experts></Experts>
